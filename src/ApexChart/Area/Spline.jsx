@@ -55,7 +55,6 @@ var options = {
     },
     x: {
       show: true,
-      format: "dd MMM",
       format: "dd/MM/yy HH:mm",
     },
     y: {

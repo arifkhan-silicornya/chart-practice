@@ -1,13 +1,18 @@
-import IndexApexChart from "./ApexChart/Index";
-import IndexRechart from "./Rechart/IndexRechart";
+import React from "react";
+import BarChart from "./d3Chart/BAR/BarChart/BarChart";
+import DThreeIndex from "./d3Chart/DThreeIndex";
 
-function App() {
+// import IndexApexChart from "./ApexChart/Index";
+// import IndexRechart from "./Rechart/IndexRechart";
+
+const App = () => {
   return (
     <>
       {/* <IndexApexChart /> */}
-      <IndexRechart />
+      {/* <IndexRechart /> */}
+      <DThreeIndex />
     </>
   );
-}
+};
 
 export default App;
